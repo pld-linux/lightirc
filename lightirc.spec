@@ -8,6 +8,7 @@ Source0:	http://www.lightirc.com/release/lightIRC_%{version}.zip
 # Source0-md5:	5d67f5d2aab9076e685af85b63e39ef7
 URL:		http://www.lightirc.com/
 BuildRequires:	rpmbuild(macros) >= 1.553
+BuildRequires:	unzip
 Requires:	js-swfobject
 Requires:	webapps
 Requires:	webserver(alias)
